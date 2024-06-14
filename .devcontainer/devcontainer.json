@@ -17,7 +17,9 @@
 		"vscode": {
 			"extensions": [
 				"shd101wyy.markdown-preview-enhanced",
-				"James-Yu.latex-workshop"
+				"James-Yu.latex-workshop",
+				"Rickaym.manim-sideview",
+				"Cardinal90.multi-cursor-case-preserve"
 			]
 		}
 	}
