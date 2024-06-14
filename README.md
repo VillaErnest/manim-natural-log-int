@@ -144,7 +144,7 @@ $\int_{1}^{e} ln(x) dx = [0 - (-1)]$
 
 $\int_{1}^{e} ln(x) dx = 1$
 
-We can see that the area is 1 sq. units. But the first bounded area is negative. We can substitue back our answer to the equation we wrote to prove the equality.
+We calculated the area of 1 sq. units and the first bounded area is negative. We can substitue back our answer to the equation we wrote to prove the equality.
 
 $\int_{1}^{e} ln(x) dx = -\int_{0}^{1} ln(x) dx$
 $1 = -(-1)$
