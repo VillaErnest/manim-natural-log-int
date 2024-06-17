@@ -499,6 +499,7 @@ class FirstApproach_Eval(Scene):
 
         self.wait(2)
 
+
 class SecondApproach_Eval_1(Scene):
     def construct(self):
         self.camera.background_color = WHITE
