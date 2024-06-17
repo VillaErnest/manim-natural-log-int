@@ -648,7 +648,7 @@ class Credits(Scene):
     def construct(self):
         self.camera.background_color = WHITE
 
-        thanks = Tex("Thank You for Listening", color=BLACK, font_size=64)
+        thanks = Text("Thank You for Listening", color=BLACK, font_size=58, weight=BOLD)
 
         self.play(Write(thanks))
 
@@ -656,7 +656,7 @@ class Credits(Scene):
 
         self.play(FadeOut(thanks))
 
-        cred = Tex("Credits", color=BLACK, font_size=64)
+        cred = Text("Credits", color=BLACK, font_size=58, weight=BOLD)
         cred.generate_target()
         cred.target.to_edge(UP)
 
@@ -668,16 +668,16 @@ class Credits(Scene):
 
         self.wait()
 
-        author1 = Tex("Ernest Louis Villacorta", color=BLACK, font_size=40)
-        author1_desc = Tex("Script, Animation, and Editing", color=BLACK, font_size=36)
+        author1 = Text("Ernest Louis Villacorta", color=BLACK, font_size=36, weight=BOLD)
+        author1_desc = Text("Script, Animation, and Editing", color=BLACK, font_size=24)
 
-        author2 = Tex("Marc Paolo Mino", color=BLACK, font_size=40)
-        author2_desc = Tex("Drafting of Script", color=BLACK, font_size=36)
+        author2 = Text("Marc Paolo Mino", color=BLACK, font_size=36, weight=BOLD)
+        author2_desc = Text("Drafting of Script", color=BLACK, font_size=24)
 
-        author3 = Tex("Ralph Joseph Roa", color=BLACK, font_size=40)
-        author3_desc = Tex("Voice Recording", color=BLACK, font_size=36)
+        author3 = Text("Ralph Joseph Roa", color=BLACK, font_size=36, weight=BOLD)
+        author3_desc = Text("Voice Recording", color=BLACK, font_size=24)
 
-        VGroup(author1, author1_desc, author2, author2_desc, author3, author3_desc).arrange(DOWN).shift(UP)
+        VGroup(author1, author1_desc, author2, author2_desc, author3, author3_desc).arrange(DOWN)
 
         self.play(
             Write(author1),
@@ -688,8 +688,8 @@ class Credits(Scene):
             Write(author3_desc)
         )
 
-        manim_cred = Tex("Powered by Manim", color=BLACK, font_size=40)
-        capcut_cred = Tex("Video edited on Capcut", color=BLACK, font_size=40)
+        manim_cred = Text("Powered by Manim", color=BLACK, font_size=24)
+        capcut_cred = Text("Video edited on Capcut", color=BLACK, font_size=24)
 
         VGroup(manim_cred, capcut_cred).arrange(DOWN).move_to(DOWN * 3)
 
