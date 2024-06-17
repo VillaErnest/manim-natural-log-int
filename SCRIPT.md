@@ -51,9 +51,7 @@ We let:
 $u = \ln(x)$
 $dv = dx$
 Thus,
-$du = \frac{d}{dx} \ln(x)$
 $du = \frac{1}{x} dx$
-$v = \int dx$
 $v = x$
 
 We substitute them back to the integration by parts
@@ -77,7 +75,6 @@ We can just simplifiy all the terms in the right to $0$
 Thus this proves that the two bounded areas are equal but opposite in sign which results into $0$ since they cancel out each other.
 
 Let us do the second approach, we already have the integral so we'll just use it and proceed directly to evaluating the integral.
-
 
 $\ln(1) = 0$
 $0 \cdot 1 = 0$
