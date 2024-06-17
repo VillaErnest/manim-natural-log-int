@@ -1,3 +1,4 @@
 {
-    "python.defaultInterpreterPath": "/usr/local/bin/python3"
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "manim-sideview.focusOutputOnRun": false
 }

@@ -15,6 +15,7 @@
 	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
 	"customizations": {
 		"python.defaultInterpreterPath": "/usr/local/bin/python3",
+		"manim-sideview.focusOutputOnRun": false,
 		"vscode": {
 			"extensions": [
 				"shd101wyy.markdown-preview-enhanced",
